@@ -10,7 +10,7 @@ publish:
 
 notify:
 	@echo "MAKE notify ==========================================="
-	python3 build-scripts/publish.py
+	# python3 build-scripts/publish.py
 
 clean:
 	@echo "MAKE clean ===========================================" 
