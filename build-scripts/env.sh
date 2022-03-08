@@ -17,7 +17,4 @@ fi
 echo "Got tag: $TAGNAME"
 
 export DOCKER_HUB_USERNAME="souravkumardevadmin"
-
-export TEST_CONTAINER="apitest"
 export BUILD_COMPOSE_LIST="-f $TOPDIR/docker-compose.yml"
-export TEST_COMPOSE_LIST="-f $TOPDIR/docker-compose.yml -f test/docker-compose.yml"
