@@ -7,5 +7,5 @@ docker login -u $dockerHubUsername -p $dockerHubPassword
 
 echo "==================================*********==================================="
 docker tag baseos-python_baseos_python:latest ${DOCKER_HUB_USERNAME}/baseos-python_baseos_python:$TAGNAME
-docker push ${DOCKER_HUB_USERNAME}/baseos-python:$TAGNAME
+docker push ${DOCKER_HUB_USERNAME}/baseos-python_baseos_python:$TAGNAME
 echo "==================================*********==================================="

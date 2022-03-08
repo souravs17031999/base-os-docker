@@ -4,6 +4,7 @@ echo "exporting environment variables (build-scripts) .... "
 
 export TOPDIR=$(git rev-parse --show-toplevel)
 export FULL_BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)
+echo "Branch: $FULL_BRANCH_NAME"
 export CURRENT_TAG=$(git describe --abbrev=0 --tags)
 if [ $FULL_BRANCH_NAME == "master" ] 
 then 
