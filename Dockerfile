@@ -11,4 +11,6 @@ RUN \
     apk add --no-cache postgresql-libs && \
     apk add --no-cache --virtual .build-deps gcc musl-dev postgresql-dev linux-headers libpq-dev
 
+RUN python3 -m pip install Flask==2.0.1 Jinja2==3.0.1 psycopg2-binary==2.9.1 psycopg2==2.9.1
+
 CMD [ "/bin/sh" ]
