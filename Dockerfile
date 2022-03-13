@@ -9,4 +9,4 @@ RUN \
     apk add --no-cache --virtual .build-deps gcc musl-dev postgresql-dev && \
     apk --purge del .build-deps
 
-CMD [ "/bin/bash" ]
+CMD [ "/bin/sh" ]
